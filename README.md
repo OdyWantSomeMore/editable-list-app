@@ -1,11 +1,3 @@
-<p align='center'>
-  <img src='https://repository-images.githubusercontent.com/442005408/3f8d7fed-9d3f-45c8-bcd5-0fa64e9ac535' alt='Vue.js starter template' width='600'/>
-</p>
-
-# Vue.js starter template
-
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/lecoueyl/vue3-template)
-
 Features:
 
 - 🛠 [Vue 3](https://v3.vuejs.org/guide/introduction.html)
@@ -20,32 +12,9 @@ Features:
 
 ## Getting Started
 
-Scaffold this repository
-
-```sh
-pnpx degit lecoueyl/vue3-template my-project
-cd my-project
-```
-
 Install and start dev server
 
 ```sh
 pnpm install
 pnpm run dev
 ```
-
-## Deployment
-
-### Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/OdyWantSomeMore/dashboard-longevity)
-
-### Github pages
-
-The default github action will build to `gh-page` when pushing on `main` branch.
-
-For a project page, the base path of the repository must be specified. Add the following secret in the Github repository Settings > Secrets > Actions
-
-| Name                        | Value                    |
-| --------------------------- | ------------------------ |
-| VITE_BASE_PUBLIC_PATH       | `/repository-name/`      |
